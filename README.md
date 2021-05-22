@@ -14,7 +14,7 @@
 ## Setup for Playing
 
 * Clone the repo
-* Run the game.html file
+* Run the main.html file
 * Enjoy the game!!!
  
  
