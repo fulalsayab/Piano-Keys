@@ -15,12 +15,15 @@ const keys = [
   "a-sharp-key",
 ];
 const notes = [];
+// looping through the elements of the keys array and pushing them to the notes array.
 keys.forEach((key) => {
   notes.push(document.getElementById(key));
 });
 
 // Write named functions that change the color of the keys below
-
+const keyPlay = (event) => {
+  event.target.style.backgroundColor = "#6df0c2";
+};
 // Write a named function with event handler properties
 
 // Write a loop that runs the array elements through the function
