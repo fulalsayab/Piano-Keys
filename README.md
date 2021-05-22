@@ -7,7 +7,7 @@
  
  
  ## Built With 
- 1. JavaScripy
+ 1. JavaScript
  2. CSS3
  3. HTML5
  
