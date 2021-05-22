@@ -29,7 +29,11 @@ const keyPlay = (event) => {
 const keyReturn = (event) => {
   event.target.style.backgroundColor = "";
 };
-// Write a named function with event handler properties
+//function with event handler properties
+const eventHandler = (note) => {
+  note.addEventListener("mousedown", keyPlay);
+  note.addEventListener("mouseup", keyReturn);
+};
 
 // Write a loop that runs the array elements through the function
 
