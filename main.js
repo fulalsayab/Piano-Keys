@@ -15,7 +15,7 @@ const keys = [
   "a-sharp-key",
 ];
 const notes = [];
-keys.forEach(function (key) {
+keys.forEach((key) => {
   notes.push(document.getElementById(key));
 });
 
