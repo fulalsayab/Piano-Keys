@@ -20,9 +20,14 @@ keys.forEach((key) => {
   notes.push(document.getElementById(key));
 });
 
-// Write named functions that change the color of the keys below
+// functions that change the color of the keys below
 const keyPlay = (event) => {
   event.target.style.backgroundColor = "#6df0c2";
+};
+
+// function that return the original color when release the key
+const keyReturn = (event) => {
+  event.target.style.backgroundColor = "";
 };
 // Write a named function with event handler properties
 
